@@ -1,0 +1,186 @@
+/***** BODY STYLES ******/
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #F8F8FF;
+	color: #1f202b;
+}
+
+/****** HEADER SECTION *****/
+header {
+	background: url('../img/b/assets/my-lombok.jpeg') no-repeat 30px 40px;
+	background-position: center;
+	height: 650px;
+
+}
+header h1 {
+	color: #F8F8FF;
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 65px 0 65px 25px;
+	text-decoration: overline;
+}
+header h2 {
+	clear: both;
+	color: #F8F8FF;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 72px;
+	line-height: 80px;
+	padding: 20px 0 20px 25px;
+	width: 1000px
+
+
+}
+/****** MAIN SECTION *****/
+p {
+	font-family: 'Raleway', sans-serif;
+
+}
+h2 { 
+	color: #1f202b;
+	font-size: 28px; 
+		text-decoration: underline;
+
+}
+h3 {
+	color: #1f202b;
+	text-decoration: underline;
+}
+h4 {
+	color: #1f202b;
+	font-size: 28px;
+		text-decoration: underline;
+
+}
+h2 span {
+	color: #1f202b;
+	font-weight: bolder;
+}
+nav {
+	float:right;
+	padding: 65px 0 65px 25px;
+}
+nav ul li {
+
+	float:left;
+}
+nav ul li a {
+	color: #F8F8FF;
+	display: inline-block;	
+	font-size: 30px;
+	font-weight: bold;
+    padding-left: 30px;    
+    text-decoration: overline;
+    text-transform: uppercase;
+}
+ul li {
+	color: #1f202b;
+	font-family: 'Raleway', sans-serif;
+	list-style-type: none;
+}
+/******* GRID SECTION *****/
+.full-width	
+{
+	margin: 0 auto;
+	overflow: auto;
+	width: 1200px;
+}
+.half-width 
+{
+	float: left;	
+	width: 600px;
+}
+.third-width 
+{
+	width: 400px;
+}
+/***** ABOUT SECTION *****/
+
+#about {
+	background-color: #F8F8FF;;
+	height: 400px;
+	float: inherit;
+	padding-top: 150px;
+}
+#about p {
+	color: #1f202b;
+	width: 480px;
+}
+
+
+/***** PORTFOLIO SECTION *****/
+
+#project-1 img {
+	width: 480px;
+	float: right;
+}
+#project-2 img {
+	width: 480px;
+	float: left;
+}
+#project-2 .half-width {
+	width: 600px;
+	float: right;
+}
+#project-2 {
+	padding-top: 65px;
+}
+#project-3 img {
+	width: 480px;
+	float: right;
+} 
+#project-3 .half-width {
+	width: 600px;
+	float: left;
+}
+#project-3 {
+	padding-top: 65px; 
+}
+
+
+
+
+
+
+
+/***** CONTACT SECTION ****/
+#contact {
+	height: 400px;
+}
+#contact #contact-img {
+	border: 12px solid #FFFFFF;
+	margin-left: 25px;
+}
+
+/***** EMAIL SECTION ****/
+#contact #mailto img {
+	width: 480px;
+}
+
+
+
+
+
+	width: 50%;
+	height: auto;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
