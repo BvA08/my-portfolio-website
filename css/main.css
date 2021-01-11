@@ -1,21 +1,20 @@
 /***** BODY STYLES ******/
 body {
 	font-family: 'Raleway', sans-serif;
-	background-color: #616161;
+	background-color: #FFFFFF;
 }
 
 /****** HEADER SECTION *****/
 header {
 	background: url('../img/b/assets/my-lombok.jpeg') 100%;
+	display: block;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
 	height: 420px;
 	padding-top: 0px;
 
 }
 header h1 {
-	color: #616161;
 	float: right;
 	font-size: 28px;
 	padding: 45px 0 45px 25px;
@@ -100,7 +99,7 @@ ul li {
 /***** ABOUT SECTION *****/
 
 #about {
-	background-color: #616161;
+	background-color: #FFFFFF;
 	height: 400px;
 	float: inherit;
 	padding-top: 0px;
@@ -113,40 +112,40 @@ ul li {
 
 
 /***** PORTFOLIO SECTION *****/
-#project-1 {
+#project-jubilee-austin {
 	float: inherit;
 	padding-left: 20px;
 }
-#project-1 img {
+#project-jubilee-austin img {
 	width: 480px;
 	float: right;
 
 
 }
-#project-2 img {
+#project-rogue-pickings img {
 	width: 480px;
 	float: left;
 
 }
-#project-2 .half-width {
+#project-rogue-pickings .half-width {
 	width: 600px;
 	float: right;
 }
-#project-2 {
+#project-rogue-pickings {
 	float: inherit;
 	padding-left: 20px;
 	padding-top: 65px;
 }
-#project-3 img {
+#project-recipe-collection img {
 	width: 480px;
 	float: right;
 
 } 
-#project-3 .half-width {
+#project-recipe-collection .half-width {
 	width: 600px;
 	float: left;
 }
-#project-3 {
+#project-recipe-collection {
 	float: inherit;
 	padding-left: 20px;
 	padding-top: 50px;
@@ -185,7 +184,8 @@ ul li {
 	width: 80px;
 	height: 60px;
 }
-
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
 
 
 
